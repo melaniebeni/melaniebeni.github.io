@@ -15,8 +15,12 @@ h3 {
 }
 
 span {
-    font-size: 6rem;
-    font-weight: 600;
+    font-size: 3rem;
+    font-weight: 300;
+}
+p {
+    font-size: 3rem;
+    font-weight: 500;
 }
 
 .container {
@@ -36,7 +40,12 @@ span {
     justify-content: center;
     margin-left: 2rem;
 }
-
+.feels {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    margin-left: 2rem;
+}
 img {
     width: 80px;
     filter: grayscale(100%);
